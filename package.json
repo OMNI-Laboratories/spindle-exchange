@@ -1,0 +1,34 @@
+{
+  "name": "spindle-exchange",
+  "version": "0.1.0",
+  "description": "OMNI Laboratories Liquidity Pool Smart Contracts",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OMNI-Laboratories/spindle-exchange.git"
+  },
+  "keywords": [
+    "ethereum",
+    "smart-contracts",
+    "telcoin-network"
+  ],
+  "author": "Amir M. Shirif",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/OMNI-Laboratories/spindle-exchange/issues"
+  },
+  "homepage": "https://github.com/OMNI-Laboratories/spindle-exchange#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.20.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.1",
+    "@openzeppelin/contracts-upgradeable": "^5.0.1"
+  }
+}
